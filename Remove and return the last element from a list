@@ -1,4 +1,4 @@
-1.	Remove and return the last element from a list.
+# 1.	Remove and return the last element from a list.
 
 l=[1,2,3,4,5]
 print(l.pop())
