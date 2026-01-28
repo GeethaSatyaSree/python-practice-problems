@@ -1,0 +1,12 @@
+# 2.	Create a guessing number game using while loop.
+
+secret=7
+while True:
+    guess=int(input("enter guess value:"))
+    if guess == secret:
+        print("secret number guessed right")
+        break
+    elif guess < secret:
+        print("secret number guessed to low")
+    else:
+        print("secret number guessed to high")
