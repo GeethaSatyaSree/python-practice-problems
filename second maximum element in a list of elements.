@@ -1,0 +1,18 @@
+# 2.	Find the second maximum element in a list of elements.
+
+l=[10,12,15,25,45]
+l.sort()
+print(l[-2])
+
+# another way
+l=[10,12,15,25,45]
+max1=l[0]
+for i in l:
+    if i>max1:
+        max1=i
+l.remove(max1)
+max2=l[0]
+for i in l:
+    if i>max2:
+        max2=i
+print(max2)
