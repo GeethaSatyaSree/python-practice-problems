@@ -1,0 +1,8 @@
+# 1.	Write a Python Program using while loop to generate the first n terms of the Fibonacci sequence.
+
+n=int(input("enter n value:"))
+a,b=0,1
+while n>0:
+    print(a,end=" ")
+    a,b=b,a+b
+    n -= 1
